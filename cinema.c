@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
+
 
 void Movies(  ){
        int film;
@@ -19,6 +19,8 @@ void Movies(  ){
 void seat( ) {
         int mseat;
         int num = 0;
+
+
        printf("Enter the seat:  \n");
 
        printf("\n Seats: \n   1 - 2 - 3 - 4 - 5 \n   6 - 7 - 8 - 9 - 10\n \n\t SCREEN \t\t");
